@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="orderhere.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span id="logo-title" title="Order">Order Here</span>
+        </div>
+        <div class="topnav"> 
+            <a href="breakfast.html" class="active">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+          </div>
+        <div class="cart" title="Cart">
+            <p id="cart-count">0</p>
+            <i class='bx bx-cart cart' id="icart"></i>
+        </div>
+
+        <div class="cart-container">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content">
+
+
+                <i name="close" id="cart-close" class="bi bi-x"></i>
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="products">
+            <div class="img">
+                <img src="images/food1.jpg"
+                    class="product-img" alt="lasagna">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title">Spaghetti</a>
+                </div>
+                
+            </div>
+
+            <p id="price">$12.00</p>
+            <button id="btn-cart" class="btn-cart"><i class="bi bi-cart-plus"></i> Add to cart</button>
+
+        </div>
+
+        <div class="products">
+            <div class="img">
+                <img src="images/food2.jpg"
+                    class="product-img" alt="bgfries">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title">Burger with Fries</a>
+                </div>
+            </div>
+            <p id="price">$10.00</p>
+            <button id="btn-cart" class="btn-cart"><i class="bi bi-cart-plus"></i> Add to cart</button>
+        </div>
+
+        <div class="products">
+            <div class="img">
+                <img src="images/dinner1.jpg"
+                    class="product-img" alt="iphone14">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title">Salmon with Veggies</a>
+                </div>
+            </div>
+            <p id="price">$11</p>
+            <button id="btn-cart" class="btn-cart"><i class="bi bi-cart-plus"></i> Add to cart</button>
+        </div>
+
+
+        <div class="products">
+            <div class="img">
+                <img src="images/dinner2.jpg"
+                    class="product-img" alt="steak">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title">Steak with Asparagus and Mashed Potatoes</a>
+                </div>
+            </div>
+            <p id="price">$13</p>
+            <button id="btn-cart" class="btn-cart"><i class="bi bi-cart-plus"></i> Add to cart</button>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
